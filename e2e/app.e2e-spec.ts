@@ -1,10 +1,10 @@
-import { SinglePageAppPage } from './app.po';
+import { A2websitePage } from './app.po';
 
-describe('single-page-app App', function() {
-  let page: SinglePageAppPage;
+describe('a2website App', function() {
+  let page: A2websitePage;
 
   beforeEach(() => {
-    page = new SinglePageAppPage();
+    page = new A2websitePage();
   });
 
   it('should display message saying app works', () => {
